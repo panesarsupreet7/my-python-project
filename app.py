@@ -18,3 +18,9 @@ meal_cost = float(input(f"Enter the meal cost:"))
 people = int(input("Emter number of people: "))
 
 calculate_restaurant_bill(meal_cost)
+
+def calculate_discount(total_bill):
+    discount = 10 / 100 * total_bill
+    final_amount = total_bill - discount
+    print(f'Discount (10%): {discount}')
+    print(f'Bill after discount: {final_amount}')
