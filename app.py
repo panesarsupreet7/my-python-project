@@ -1,7 +1,7 @@
 def calculate_restaurant_bill(meal_cost):
     
     service_charge = 10 / 100 * meal_cost
-    Amount_service = meal_cost - service_charge
+    Amount_service = meal_cost + service_charge
     Tax = 5 / 100 * Amount_service
     Tip = 5 / 100 * Amount_service
     Total_bill = Amount_service + Tax + Tip
