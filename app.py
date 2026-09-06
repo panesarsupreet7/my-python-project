@@ -10,7 +10,7 @@ def calculate_restaurant_bill(meal_cost):
     print(f'Amount after service: {Amount_service}')
     print(f'Tax (5%): {Tax}')
     print(f'Tip (5%) {Tip}')
-
-       
+    print(f'Total Bill: {Total_bill}')
+      
 meal_cost = float(input(f"Enter the meal cost:"))
 calculate_restaurant_bill(meal_cost)
